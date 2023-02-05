@@ -8,7 +8,7 @@ It is highly opinionated, and consists of:
 * [Vite](https://vitejs.dev/)
 * [Vitest](https://vitest.dev)
 * [Cypress](https://cypress.io/)
-* [Akita](https://opensource.salesforce.com/akita/)
+* [Akita](https://opensource.salesforce.com/akita/) or [Jotai](https://jotai.org/)
 * [Plop](https://plopjs.com/)
 * [Storybook](https://storybook.js.org/)
 * [ESLint](https://eslint.org/)
