@@ -5,33 +5,34 @@ module.exports = {
   },
   extends: [
     'plugin:react/recommended',
-    'standard-with-typescript'
+    'standard-with-typescript',
+    'plugin:storybook/recommended',
+    'plugin:mdx/recommended'
   ],
-  overrides: [
-  ],
+  settings: {
+    'mdx/code-blocks': true
+  },
+  overrides: [],
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
     project: 'tsconfig.json'
   },
-  plugins: [
-    'react'
-  ],
+  plugins: ['react'],
   rules: {
-    'import/order': [
-      1,
-      {
-        groups: ['builtin', 'external', 'internal', 'parent', 'sibling'],
-        pathGroups: [
-          { pattern: 'react', group: 'external', position: 'before' },
-        ],
-        pathGroupsExcludedImportTypes: ['react'],
-        'newlines-between': 'always',
-        alphabetize: {
-          order: 'asc',
-          caseInsensitive: true
-        }
+    'import/order': [1, {
+      groups: ['builtin', 'external', 'internal', 'parent', 'sibling'],
+      pathGroups: [{
+        pattern: 'react',
+        group: 'external',
+        position: 'before'
+      }],
+      pathGroupsExcludedImportTypes: ['react'],
+      'newlines-between': 'always',
+      alphabetize: {
+        order: 'asc',
+        caseInsensitive: true
       }
-    ]
+    }]
   }
-}
+};
