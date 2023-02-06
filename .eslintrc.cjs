@@ -12,7 +12,6 @@ module.exports = {
   settings: {
     'mdx/code-blocks': true
   },
-  overrides: [],
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
