@@ -4,6 +4,11 @@ module.exports = {
     './src/**/*.{ts,tsx}'
   ],
   theme: {
+    fontFamily: {
+      sans: ['DM Sans', 'sans-serif'],
+      serif: ['DM Serif Text', 'serif'],
+      mono: ['DM Mono', 'mono']
+    },
     extend: {},
   },
   plugins: [],
