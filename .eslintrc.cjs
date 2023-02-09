@@ -29,6 +29,8 @@ module.exports = {
           { pattern: 'config/**/*', group: 'internal', position: 'after' },
           { pattern: 'common', group: 'internal', position: 'after' },
           { pattern: 'common/**/*', group: 'internal', position: 'after' },
+          { pattern: 'assets', group: 'internal', position: 'after' },
+          { pattern: 'assets/**/*', group: 'internal', position: 'after' },
           { pattern: 'locale', group: 'internal', position: 'after' },
           { pattern: 'locale/**/*', group: 'internal', position: 'after' },
           { pattern: 'api', group: 'internal', position: 'after' },
