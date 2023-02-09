@@ -2,6 +2,8 @@ import React from 'react'
 
 import ReactDOM from 'react-dom/client'
 
+import 'config/i18n'
+
 import App from 'App'
 
 import './main.css'
