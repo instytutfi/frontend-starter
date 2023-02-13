@@ -5,9 +5,7 @@ import { Bars3Icon, XMarkIcon, ArrowTopRightOnSquareIcon } from '@heroicons/reac
 import { useTranslation } from 'react-i18next'
 
 const navigation = [
-  { name: 'Documentation', href: '#', external: false },
-  { name: 'Github', href: 'https://github.com/instutfi/frontend-starter', external: true },
-  { name: 'Instytut Fi', href: 'https://github.com/instytutfi', external: true }
+  { name: 'Github', href: 'https://github.com/instutfi/frontend-starter', external: true }
 ]
 
 const Hero: FC = () => {
@@ -44,14 +42,12 @@ const Hero: FC = () => {
       </div>
       <div className="px-6 pt-6 lg:px-8">
         <nav className="flex items-center justify-between" aria-label="Global">
-          <div className="flex lg:flex-1">
-            <a href="#" className="flex items-center gap-3 p-1.5">
-              <img className="h-10" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
-              <span className="-mb-1 text-lg font-bold tracking-tight border-b-2 border-b-transparent transition-all hover:text-indigo-800 hover:border-b-indigo-800">
-                {t('app.name')}
-              </span>
-            </a>
-          </div>
+          <h1 className="flex lg:flex-1 items-center gap-3 p-1.5">
+            <img className="h-10" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
+            <span className="text-lg font-bold tracking-tight">
+              {t('app.name')}
+            </span>
+          </h1>
           <div className="flex lg:hidden">
             <button
               type="button"
@@ -139,7 +135,7 @@ const Hero: FC = () => {
               <a
                 href="https://github.com/instytutfi/frontend-starter#readme"
                 rel="noopener noreferrer"
-                className="transition-all rounded-xl bg-indigo-600 px-8 py-3 shadow-xl shadow-indigo-800/50 hover:shadow-xl hover:shadow-indigo-400/50 text-base font-semibold leading-7 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="transition-all rounded-xl bg-indigo-600 px-8 py-3 shadow-lg shadow-indigo-800/50 hover:shadow-xl hover:shadow-indigo-800/50 text-base font-semibold leading-7 text-white hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Get started
               </a>
