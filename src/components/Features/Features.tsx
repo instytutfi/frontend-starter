@@ -1,6 +1,6 @@
 import React, { type FC } from 'react'
 
-import { BoltIcon, ChevronDoubleRightIcon, CircleStackIcon, VariableIcon } from '@heroicons/react/24/outline'
+import { BoltIcon, CircleStackIcon, VariableIcon } from '@heroicons/react/24/outline'
 
 import {
   CypressIcon, I18NextIcon,
