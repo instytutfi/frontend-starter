@@ -1,0 +1,9 @@
+name: Test Pull Request
+
+on:
+  pull_request:
+
+jobs:
+  test:
+    name: Test
+    uses: instytutfi/frontend-starter/.github/workflows/_test.yml@main
