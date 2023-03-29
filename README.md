@@ -65,7 +65,7 @@ The only exception of the rule above are: pages and layouts. We'll talk about th
 
 #### `src/layouts`
 
-Layout is a special type of a component, which describes the overall layout of a page. A layout itself usually shouldn't render any particular components. It's role is to define a reusable layout into which other components can be rendered (usually as children or props): navbar, sidebar, main content, footer, etc.
+Layout is a special type of a component, which describes the overall layout of a page. A layout itself usually shouldn't render any particular components. It's role is to define a reusable layout into which other components can be rendered (usually as children, props, or React Router's `<Outlet>` elements): navbar, sidebar, main content, footer, etc.
 
 #### `src/pages`
 
