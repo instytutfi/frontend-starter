@@ -8,7 +8,7 @@ import tsconfigPaths from 'vite-tsconfig-paths'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/',
+  base: 'https://instytutfi.github.io/frontend-starter/',
   build: {
     outDir: 'dist'
   },
