@@ -8,7 +8,6 @@ It is highly opinionated, and consists of:
 * [Vite](https://vitejs.dev/)
 * [Vitest](https://vitest.dev)
 * [Cypress](https://cypress.io/)
-* [Jotai](https://jotai.org/)
 * [Plop](https://plopjs.com/)
 * [Storybook](https://storybook.js.org/)
 * [ESLint](https://eslint.org/)

@@ -16,7 +16,7 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx,json,mdx}": "eslint"
+    "src/**/*.{js,jsx,ts,tsx,mdx}": "eslint --fix"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.10",
