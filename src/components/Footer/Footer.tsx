@@ -3,16 +3,21 @@ import React, { type FC, useMemo } from 'react'
 import { HeartIcon } from '@heroicons/react/24/solid'
 import { useTranslation } from 'react-i18next'
 
+import { useVersion } from 'hooks'
+
 import s from './Footer.module.css'
 
 const Footer: FC = () => {
   const { t } = useTranslation()
+  const version = useVersion()
   const year = useMemo(() => new Date().getFullYear(), [])
 
   return (
-    <div className="py-16 mx-auto max-w-7xl px-6 lg:px-8">
-      <p className="text-center text-gray-600 text-sm">
-        {t('footer.copyright', { year })}{' '}
+    <div className="py-16 mx-auto max-w-7xl px-6 lg:px-8 flex flex-col gap-4 text-center md:flex-row md:justify-between md:text-left text-gray-600 text-sm">
+      <p>
+        {t('footer.copyright', { version, year })}
+      </p>
+      <p>
         {t(
           'footer.author',
           {

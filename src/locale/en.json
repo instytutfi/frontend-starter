@@ -27,6 +27,6 @@
   "features.react-i18next.description": "The Starter is pre-configured with react-i18next and ready to handle multi-language translations. In case you need it ;)",
   "features.tailwindcss.name": "Tailwind CSS",
   "features.tailwindcss.description": "While you can pick a UI framework of your choice, we also provide Tailwind CSS integration if you feel like doing some manual designing.",
-  "footer.copyright": "Copyleft {year}.",
-  "footer.author": "Made with {heart}️ by {author}."
+  "footer.copyright": "{version} — copyleft {year}",
+  "footer.author": "Made with {heart}️ by {author}"
 }
