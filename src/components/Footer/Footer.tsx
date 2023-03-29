@@ -16,10 +16,11 @@ const Footer: FC = () => {
         {t(
           'footer.author',
           {
-            heart: <HeartIcon className="inline-block w-5 h-5 text-red-500" />,
+            heart: <HeartIcon key="heart" className="inline-block w-5 h-5 text-red-500" />,
             author: (
-              <>
+              <span key="links">
                 <a
+                  key="mciszczon"
                   href="https://github.com/mciszczon"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -28,6 +29,7 @@ const Footer: FC = () => {
                   Mateusz Ciszczoń
                 </a>/
                 <a
+                  key="instytutfi"
                   href="https://github.com/instytutfi"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -35,7 +37,7 @@ const Footer: FC = () => {
                 >
                   Instytut Fi
                 </a>
-              </>
+              </span>
             )
           }
         )}
